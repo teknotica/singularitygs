@@ -1,2 +1,2 @@
-# bourbon-neat
-Little project to test Bourbon grid framework and Neat
+# Singularity semantic grid framework
+Little project to test Singularity GS framework
