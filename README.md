@@ -1,2 +1,2 @@
-# singularitygs
-Small project to test Singularity Grid Framework
+# bourbon-neat
+Little project to test Bourbon grid framework and Neat
