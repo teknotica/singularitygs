@@ -1,0 +1,210 @@
+/* line 1, ../../sass/toolkit/toolkit/_kickstart.scss */
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../../sass/toolkit/toolkit/_kickstart.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 15, ../../sass/toolkit/toolkit/_kickstart.scss */
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1, ../../sass/partials/_main.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../sass/partials/_main.scss */
+body {
+  background: #FDFFDB;
+}
+
+/* line 11, ../../sass/partials/_layout.scss */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* line 16, ../../sass/partials/_layout.scss */
+.row {
+  overflow: hidden;
+}
+
+/* line 20, ../../sass/partials/_layout.scss */
+.inner {
+  padding: 15px;
+  min-height: 190px;
+}
+/* line 23, ../../sass/partials/_layout.scss */
+.inner p {
+  padding: 0;
+}
+
+/* line 28, ../../sass/partials/_layout.scss */
+.one {
+  background-color: yellow;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 28, ../../sass/partials/_layout.scss */
+  .one {
+    -sgs-span-settings: ("span": 1, "location": 2, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": false, "end row": false, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 20%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 10%;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+/* line 36, ../../sass/partials/_layout.scss */
+.two {
+  background-color: lightblue;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 36, ../../sass/partials/_layout.scss */
+  .two {
+    -sgs-span-settings: ("span": 1, "location": 3, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": false, "end row": false, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 30%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 30%;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+/* line 44, ../../sass/partials/_layout.scss */
+.three {
+  background-color: lightgreen;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 44, ../../sass/partials/_layout.scss */
+  .three {
+    -sgs-span-settings: ("span": 1, "location": 4, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": false, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 40%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+/* line 52, ../../sass/partials/_layout.scss */
+.four {
+  background-color: lightgrey;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 52, ../../sass/partials/_layout.scss */
+  .four {
+    -sgs-span-settings: ("span": 2, "location": 1, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": true, "end row": false, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 30%;
+    float: left;
+    margin-right: -100%;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+/* line 60, ../../sass/partials/_layout.scss */
+.five {
+  background-color: lightcoral;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 60, ../../sass/partials/_layout.scss */
+  .five {
+    -sgs-span-settings: ("span": 1, "location": 3, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": false, "end row": false, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 30%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 30%;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+/* line 68, ../../sass/partials/_layout.scss */
+.six {
+  background-color: lightcyan;
+  -sgs-span-settings: ("span": 3, "location": 1, "grid": 1 2 1, "gutter": 1.5em, "style": "split", "start row": true, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+@media (min-width: 768px) {
+  /* line 68, ../../sass/partials/_layout.scss */
+  .six {
+    -sgs-span-settings: ("span": 1, "location": 4, "grid": 1 2 3 4, "gutter": 1.5em, "style": "split", "start row": false, "end row": true, "fixed gutter": true, "split gutter": 1, "gutter property": "padding", "options": (null: null));
+    width: 40%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
